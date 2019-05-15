@@ -1,0 +1,91 @@
+:root {
+    --light-grey-blue: #abb2b7;
+    --greyish-brown: #595959;
+    --coral: #ff4343;
+    --light-sky-blue: #dde2e6;
+    --blue-grey: #5f7193;
+    --greyblue: #7a90b8;
+    --brownish-grey: #727272;
+    --greyish-brown-two: #424242;
+    --brown-grey: #8b8b8b;
+    --first-column: 15fr;
+}
+
+@font-face {
+    font-family: 'OpenSans700';
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/open-sans700.woff2') format('woff2'),
+    url('../fonts/open-sans700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'OpenSans400';
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/open-sans400.woff2') format('woff2'),
+    url('../fonts/open-sans400.woff') format('woff');
+}
+
+/* noto-sans-regular - cyrillic_latin */
+@font-face {
+    font-family: 'NotoSans400';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'), local('NotoSans'),
+    url('../fonts/noto-sans400.woff2') format('woff2'),
+    url('../fonts/noto-sans400.woff') format('woff');
+}
+/* noto-sans-700 - cyrillic_latin */
+@font-face {
+    font-family: 'NotoSans400';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('../fonts/noto-sans700.woff2') format('woff2'),
+    url('../fonts/noto-sans700.woff') format('woff');
+}
+
+///* Text styles */
+//.Text-Style {
+//    font-family: OpenSans;
+//    font-size: 34px;
+//    font-weight: bold;
+//    font-style: normal;
+//    font-stretch: normal;
+//    line-height: 1.06;
+//    letter-spacing: normal;
+//    color: var(--greyish-brown-two);
+//}
+//.Text-Style-3 {
+//    font-family: NotoSans;
+//    font-size: 15px;
+//    font-weight: normal;
+//    font-style: normal;
+//    font-stretch: normal;
+//    line-height: normal;
+//    letter-spacing: normal;
+//    color: var(--brownish-grey);
+//}
+//.Text-Style-2 {
+//    font-family: OpenSans;
+//    font-size: 13px;
+//    font-weight: bold;
+//    font-style: normal;
+//    font-stretch: normal;
+//    line-height: normal;
+//    letter-spacing: normal;
+//    color: var(--greyish-brown-two);
+//}
+//.error {
+//    font-family: NotoSans;
+//    font-size: 13px;
+//    font-weight: normal;
+//    font-style: normal;
+//    font-stretch: normal;
+//    line-height: normal;
+//    letter-spacing: normal;
+//    color: #ff4c4c;
+//}
